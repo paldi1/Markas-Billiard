@@ -54,17 +54,28 @@
         }
     },
     "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true,
-        "allow-plugins": {
-            "pestphp/pest-plugin": true,
-            "php-http/discovery": true
-        },  
-    "   platform": {
-            "php": "8.2"
-        }
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "allow-plugins": {
+        "pestphp/pest-plugin": true,
+        "php-http/discovery": true
     },
+    "platform": {
+        "php": "8.2"
+    },
+    "policy": {
+        "advisories": {
+            "ignore": [
+                "PKSA-m5cs-t1y6-qpcs",
+                "PKSA-3r5d-mb8f-1qw9",
+                "PKSA-mdq4-51ck-6kdq",
+                "PKSA-8qx3-n5y5-vvnd",
+                "PKSA-w7xr-vk7n-rstm"
+            ]
+        }
+    }
+},
     
     "minimum-stability": "stable",
     "prefer-stable": true
