@@ -1,0 +1,118 @@
+/* Styling CSS - Optimized */
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('/image/bangbang.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.glass-card {
+    background: rgba(25, 30, 45, 0.75) !important; 
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 242, 255, 0.3); 
+    border-radius: 25px !important;
+    padding: 35px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 242, 255, 0.1); 
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+    border: 1px solid rgba(0, 242, 255, 0.6);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 242, 255, 0.2);
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 10px;
+}
+
+.btn-billiard {
+    background: #1a4d2e;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Gabungan Header Box */
+.header-box {
+    text-align: center;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 25px;
+}
+
+.header-box h4 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.info-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    color: #d1d1d1;
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 25px;
+    backdrop-filter: blur(5px);
+}
+
+.info-box strong {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.brand-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.data-wrapper {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.bg-dark-glass {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Efek Glass untuk tombol admin */
+.btn-glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-glass:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Warna khusus untuk hover tombol agar tetap konsisten dengan warna aslinya */
+.btn-outline-danger.btn-glass:hover { background: rgba(220, 53, 69, 0.2); border-color: #dc3545; }
+.btn-outline-warning.btn-glass:hover { background: rgba(255, 193, 7, 0.2); border-color: #ffc107; }
+.btn-outline-success.btn-glass:hover { background: rgba(25, 135, 84, 0.2); border-color: #198754; }
